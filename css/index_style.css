@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+}
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.formlogin{
+    display: grid;
+    justify-content: center;
+    background-color: cornflowerblue;
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.formtitle{
+    display: flex;
+    justify-content: center;
+    font-family:system-ui;
+    font-size: 23px;
+    margin: 20px;
+}
+.forminput{
+    display: flex;
+    font-family:'Segoe UI';
+    flex-direction: column;
+    margin-block: 8px ;
+}
+.forminput>input{
+    font-size: 17px;
+    border-radius: 5px;
+    border-style: none;
+}
+.formlabel{
+    margin-bottom: 5px;
+}
+.formbutton{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.formbutton>button{
+    margin-top: 15px;
+    padding-inline: 40px;
+    padding-block: 3px;
+    font-family:'Segoe UI';
+    background-color: coral;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+}
+.formbutton>button:hover{
+    background-color:tomato;
+    color: white;
+}
+.formlink{
+    margin-block-start: 10px;
+    margin-inline: auto;
+    font-size: 9px;
+}
+.formlink>pre>a{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 2px;
+    border-radius: 15px;
+}
+.formlink>pre>a:hover{
+    background-color: darkorange;
+}

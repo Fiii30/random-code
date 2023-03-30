@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+}
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.formlogin{
+    display: grid;
+    justify-content: center;
+    background-color:tomato;
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.formtitle{
+    display: flex;
+    justify-content: center;
+    font-family:system-ui;
+    font-size: 23px;
+    margin: 20px;
+}
+.forminput{
+    display: flex;
+    font-family:'Segoe UI';
+    flex-direction: column;
+    margin-block: 8px ;
+}
+.forminput>input{
+    font-size: 17px;
+    border-radius: 5px;
+    border-style: none;
+}
+.formcode{
+    display: grid;
+    width: auto;
+    padding-block: 5px;
+    justify-content: center;
+    font-family:'Trebuchet MS';
+    font-size: 30px;
+    background-color: lightslategrey;
+    border-radius: 10px;
+}
+.formbutton{
+    display: flex;
+    justify-content:center;
+    margin: 15px;
+}
+.formbutton>button{
+    margin-top: 15px;
+    padding-inline: 40px;
+    padding-block: 3px;
+    font-family:'Segoe UI';
+    border-style: none;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+.btnrun{
+    background-color: crimson;
+
+}
+.btnrun:hover{
+    background-color:red;
+    color: white;
+}
+.btnsubmit{
+    background-color: goldenrod;
+}
+.btnsubmit:hover{
+    background-color:greenyellow;
+    color: white;
+}
+
+.formlink{
+    margin-block-start: 10px;
+    margin-inline: auto;
+    font-size: 10px;
+}
